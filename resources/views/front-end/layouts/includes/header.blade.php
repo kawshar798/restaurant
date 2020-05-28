@@ -21,6 +21,11 @@
                                 @foreach($socials as $social)
                                     <li><a href="{{$social->link}}"><i class="{{$social->icon}}" aria-hidden="true"></i></a></li>
                                 @endforeach
+
+                                <li><a href="lang/bn">Bangla</a></li>
+                                <li><a href="lang/en">English</a></li>
+                                <p>{{ __('Login') }}</p>
+
                             </ul>
                         </div>
                     </div>

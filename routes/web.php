@@ -17,6 +17,13 @@
     return view('welcome');
 });*/
 
+Route::get('lang/{locale}',function($locale){
+
+    session()->put('locale', $locale);
+    return redirect()->back();
+
+});
+
 
 Route::get('/', 'HomeController@index')->name('home');
 //Route::get('/food-menu/', 'HomeController@menubByCat')->name('food-menu');

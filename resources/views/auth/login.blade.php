@@ -47,6 +47,8 @@
                         <div class="text-center account-logo-box">
                             <h2 class="text-uppercase">
                                 <a href="index.html" class="text-success">
+                               
+                                {{ __('Login') }}
                                     <span><img src="{{asset('/')}}admin/assets/images/logo/logo.png" alt="" height="36"></span>
                                 </a>
                             </h2>
